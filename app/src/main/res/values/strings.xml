@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Cricket_Info_5</string>
+    <string name="tab_text_1">Info</string>
+    <string name="tab_text_2">Score Board</string>
+    <string name="tab_text_3">Live</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="players">
+        <item>Misbah-ul-Haq</item>
+        <item>Sohaib Akthar</item>
+        <item>Umar Gull</item>
+        <item>Abdul Razzaq</item>
+        <item>Umar Akmal</item>
+        <item>Kamarn Akmal</item>
+        <item>Shaid Afridi</item>
+        <item>Muhammad Amir</item>
+        <item>Sohaib Malik</item>
+        <item>Waseem Akram</item>
+        <item>Sarfraz Ahmad</item>
+
+    </string-array>
+    <string-array name="description">
+        <item>out</item>
+        <item>playing</item>
+        <item>out</item>
+        <item>not out</item>
+        <item>out</item>
+        <item>playing</item>
+        <item>out</item>
+        <item>not out</item>
+        <item>not out</item>
+        <item>not out</item>
+        <item>not out</item>
+
+    </string-array>
+    <string-array name="runs">
+        <item>12</item>
+        <item>45</item>
+        <item>32</item>
+        <item>0</item>
+        <item>32</item>
+        <item>42</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="balls">
+        <item>10</item>
+        <item>50</item>
+        <item>39</item>
+        <item>0</item>
+        <item>42</item>
+        <item>52</item>
+        <item>34</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="runRate">
+        <item>99</item>
+        <item>21</item>
+        <item>54</item>
+        <item>0</item>
+        <item>14</item>
+        <item>20</item>
+        <item>67</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="sixes">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="bowlers">
+        <item>Misbah-ul-Haq</item>
+        <item>Sohaib Akthar</item>
+        <item>Umar Gull</item>
+        <item>Abdul Razzaq</item>
+        <item>Umar Akmal</item>
+        <item>Kamarn Akmal</item>
+        <item>Shaid Afridi</item>
+        <item>Muhammad Amir</item>
+        <item>Sohaib Malik</item>
+        <item>Waseem Akram</item>
+        <item>Sarfraz Ahmad</item>
+
+    </string-array>
+    <string-array name="fours">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="overs">
+        <item>99</item>
+        <item>21</item>
+        <item>54</item>
+        <item>0</item>
+        <item>14</item>
+        <item>20</item>
+        <item>67</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="wickets">
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="maidens">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>6</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </string-array>
+
+</resources>

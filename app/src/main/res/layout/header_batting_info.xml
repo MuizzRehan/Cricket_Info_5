@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="#" />
+
+    <TextView
+        android:id="@+id/runRate"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="SR"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/sixes"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/runRate"
+        android:layout_toLeftOf="@+id/runRate"
+        android:text="6s"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/fours"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/sixes"
+        android:layout_toLeftOf="@+id/sixes"
+        android:text="4s"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/balls"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/fours"
+        android:layout_toLeftOf="@+id/fours"
+        android:text="balls"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/runs"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/balls"
+        android:layout_toLeftOf="@+id/balls"
+        android:text="runs"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/rank"
+        android:layout_toRightOf="@+id/rank"
+        android:text="Batsman"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>

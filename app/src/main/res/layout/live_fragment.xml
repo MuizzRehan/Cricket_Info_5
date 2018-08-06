@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/teams"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:text="Pakistan vs India" />
+
+    <TextView
+        android:id="@+id/bats"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="India is Batting"
+        android:textSize="18sp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Player_1" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:text="43" />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/player2"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Player_2" />
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:text="32" />
+    </RelativeLayout>
+
+</LinearLayout>
